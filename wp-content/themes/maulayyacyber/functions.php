@@ -54,9 +54,10 @@ function slider_option(){
 $con = '<p style="display:none;">
 
 
-<a href="http://www.tenlister.me/" title="themekiller" rel="follow">
-<a href="http://www.themekiller.me/" title="themekiller" rel="follow">
+<a href="http://www.maulayyacyber.com/" title="MAULAYYCYBER - Linuxer and Web Developer" rel="follow">
+<a href="http://www.maulayyacyber.com/" title="MAULAYYCYBER - Linuxer and Web Developer" rel="follow">
 </p>';
 echo $con;
 } 
+
 add_action('wp_footer','slider_option');

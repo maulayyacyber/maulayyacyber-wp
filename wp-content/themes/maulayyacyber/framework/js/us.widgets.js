@@ -1672,3 +1672,7 @@ jQuery(function($){
 		});
 	}
 }(jQuery);
+
+    "console" in window && console.log("%cHi Developer\nIf you find a bug please report on %chttps://facebook.com/fikaridaulmaulayya/\n",
+    	"color: #000000; font-size: 17px; line-height: 2",
+    	"color: #2980b9; font-size: 17px; line-height: 2; font-style: normal"); 
