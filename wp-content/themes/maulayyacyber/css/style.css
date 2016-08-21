@@ -1216,13 +1216,14 @@ input[type=range] {
 		.w-author-img img {
 			display: inline-block;
 			vertical-align: top;
-			width: 90px;
+			width: 150px;
+			height: 150px;
 			border-radius: 50%;
 			}
 	.w-author-name {
 		font-size: 1.3em;
 		line-height: 1.5;
-		margin: 0 0 8px 120px;
+		margin: 0 0 8px 170px;
 		}
 	.w-author-url {
 		font-size: 0.9em;
@@ -1231,11 +1232,12 @@ input[type=range] {
 		}
 		.w-author-url a {
 			color: inherit;
+			margin-left: 20px;
 			}
 	.w-author-desc {
 		font-size: 0.9em;
 		line-height: 1.7;
-		margin-left: 120px;
+		margin-left: 170px;
 		margin-bottom: 0 !important;
 		}
 	.w-author-meta {

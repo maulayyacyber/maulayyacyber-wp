@@ -19,7 +19,6 @@ $template_vars = array(
 		<main class="l-content" role="main" itemprop="mainContentOfPage">
 
 			<?php do_action( 'us_before_single' ) ?>
-
 			<?php
 			while ( have_posts() ){
 				the_post();

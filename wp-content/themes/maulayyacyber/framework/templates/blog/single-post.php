@@ -200,9 +200,11 @@ $meta_html = apply_filters( 'us_single_post_meta_html', $meta_html, get_the_ID()
 
 <?php echo $the_content ?>
 
+<div class="content-view" style="font-style: italic;color: #999999;margin-top: 15px;font-size: 16px;">Tutorial ini telah dibaca <strong><?php echo_post_views(get_the_ID()); ?></strong> kali</div>
+
 <?php if ( $show_tags AND ! empty( $the_tags ) ): ?>
 	<section class="l-section for_tags">
-		<div class="l-section-h i-cf">
+		<div class="l-section-h i-cf" style="padding: 20px 0;">
 			<div class="g-tags">
 				<span class="g-tags-title"><?php _e( 'Tags', 'us' ) ?>:</span>
 				<?php echo $the_tags ?>
