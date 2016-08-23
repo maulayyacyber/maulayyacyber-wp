@@ -5501,6 +5501,7 @@ a.w-btn.color_white.style_flat {
 	.page-404:before {
 		display: inline-block;
 		content: '\e878';
+		font-family: "ubuntu";
 		font: 200px/1 mdfonticon;
 		margin-bottom: 10px;
 		opacity: 0.1;

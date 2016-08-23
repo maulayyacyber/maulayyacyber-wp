@@ -63,7 +63,7 @@ if ( $footer_layout != NULL ) {
 
 <?php if ( $us_layout->footer_show_bottom ): ?>
 	<!-- subfooter: bottom -->
-	<div class="l-subfooter at_bottom">
+	<div class="l-subfooter at_bottom" style="font-family:ubuntu">
 		<div class="l-subfooter-h i-cf">
 
 			<?php do_action( 'us_bottom_subfooter_start' ) ?>

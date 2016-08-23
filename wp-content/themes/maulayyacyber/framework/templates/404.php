@@ -19,7 +19,9 @@ US_Layout::instance()->sidebar_pos = 'none';
 
 						<?php
 
-						$the_content = '<h1>'.__( 'Error 404 - page not found', 'us' ).'</h1><p>'.__( 'Ohh... You have requested the page that is no longer there.', 'us' ).'</p>';
+						$the_content = '<h1 style="font-family:ubuntu">'.__( 'Page Not Found', 'us' ).'</h1>
+									<p style="font-family:ubuntu">'.__( 'Maaf, halaman ini tidak tersedia.', 'us' ).'</p>
+									<p style="font-family:ubuntu">'.__( 'Tautan yang Anda ikuti mungkin telah rusak, atau halaman telah dihapus..', 'us' ).'</p>';
 						echo apply_filters( 'us_404_content', $the_content );
 
 						?>
