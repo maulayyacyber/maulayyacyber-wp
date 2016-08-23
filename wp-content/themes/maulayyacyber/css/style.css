@@ -5564,10 +5564,10 @@ img.aligncenter {
 	
 /* Widgets */
 .widget {
-	margin-bottom: 45px;
+	margin-bottom: 15px;
 	}
 .widget:last-child {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 	}
 .l-subfooter .widget {
 	margin-bottom: 30px;

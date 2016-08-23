@@ -16,8 +16,10 @@ if ( $footer_layout != NULL ) {
 	$footer_classes .= ' layout_' . $footer_layout;
 }
 ?>
+<div id ="maulayycyber_footer">
+</div>
 <!-- FOOTER -->
-<footer class="l-footer<?php echo $footer_classes; ?>" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
+<footer  class="l-footer<?php echo $footer_classes; ?>" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
 
 <?php if ( $us_layout->footer_show_top ): ?>
 	<!-- subfooter: top -->
