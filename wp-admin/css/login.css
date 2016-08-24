@@ -124,8 +124,8 @@ p {
 }
 
 .login h1 a {
-	background-image: url(../images/w-logo-blue.png?ver=20131202);
-	background-image: none, url(../images/wordpress-logo.svg?ver=20131107);
+	background-image: url(../images/logo_corporate.png?ver=20131202);
+	background-image: none, url(../logo_corporate.png?ver=20131107);
 	-webkit-background-size: 84px;
 	background-size: 84px;
 	background-position: center top;
@@ -143,6 +143,7 @@ p {
 	outline: none;
 	overflow: hidden;
 	display: block;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 #login {
