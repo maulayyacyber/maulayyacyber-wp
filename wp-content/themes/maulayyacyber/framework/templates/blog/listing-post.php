@@ -200,7 +200,7 @@ foreach ( $categories as $category ) {
 			</div>
 <?php endif/*( ! empty( $the_content ) )*/; ?>
 <?php if ( $show_read_more ): ?>
-			<a class="w-blog-post-more w-btn" style="white-space:pre" href="<?php the_permalink() ?>"<?php if ( $post_format == 'link' ) { echo ' target="_blank"'; }?>><span class="w-btn-label"><?php _e( 'Read More <i class="fa fa-long-arrow-right"></i>', 'us' ) ?></span></a>
+			<a class="w-blog-post-more w-btn" style="white-space:pre;line-height: 2.5;text-transform:none;" href="<?php the_permalink() ?>"<?php if ( $post_format == 'link' ) { echo ' target="_blank"'; }?>><span class="w-btn-label"><?php _e( 'Read More <i class="fa fa-long-arrow-right"></i>', 'us' ) ?></span></a>
 <?php endif/*( $show_read_more )*/; ?>
 		</div>
 	</div>
