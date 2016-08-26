@@ -197,7 +197,7 @@ if ( $wp_query->max_num_pages > 1 ) {
 	} elseif ( $pagination == 'ajax' ) {
 		?><div class="g-loadmore">
 			<div class="g-loadmore-btn">
-				<span><?php _e( 'Load More', 'us' ) ?></span>
+				<span><?php _e( 'Load More <i class="fa fa-refresh"></i>', 'us' ) ?></span>
 			</div>
 			<div class="g-preloader type_1"></div>
 		</div><?php
